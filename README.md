@@ -1,0 +1,2 @@
+# BulkMailer
+This is a website which you can use in sending mails in a bulk format from a excel file in xls and xlsx format. 
