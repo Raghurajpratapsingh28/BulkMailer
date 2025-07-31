@@ -5,6 +5,8 @@ import { prisma } from "@/lib/prisma"
 import { decryptGmailPassword } from "@/lib/encryption"
 import { sendBulkEmails } from "@/lib/email"
 
+export const dynamic = 'force-dynamic'
+
 export async function POST(request: NextRequest) {
   try {
     const session = await getServerSession(authOptions)
