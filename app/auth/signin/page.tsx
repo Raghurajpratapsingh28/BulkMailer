@@ -22,7 +22,7 @@ export default function SignIn() {
   }, [router])
 
   const handleGoogleSignIn = () => {
-    signIn("google", { callbackUrl: "/onboarding" })
+    signIn("google", { callbackUrl: "/dashboard" })
   }
 
   return (
